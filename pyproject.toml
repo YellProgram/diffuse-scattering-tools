@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diffuse_scattering_tools"
+version = "0.0.1"
+authors = [
+  { name="Arkadiy Simonov", email="arkadiy.simonov@mat.ethz.ch" },
+  { name="Reinhard Neder", email="reinhard.neder@fau.de" },
+]
+description = "Python convenience functions for reading and writing single crystal diffuse scattering datasets"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/YellProgram/diffuse-scattering-tools"
+Issues = "https://github.com/YellProgram/diffuse-scattering-tools/issues"
